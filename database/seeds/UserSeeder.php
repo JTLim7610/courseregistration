@@ -19,7 +19,8 @@ class UserSeeder extends Seeder
             'role_id' => getConfig('role.student'), 
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now(),
-            'password' => Hash::make(env('USER_PASSWORD', 'test')),            
+            'password' => Hash::make(env('USER_PASSWORD', 'test')),
+            'is_activity' => '1',                        
         ]);
 
         User::create([
@@ -28,7 +29,8 @@ class UserSeeder extends Seeder
             'role_id' => getConfig('role.superadmin'), 
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now(),
-            'password' => Hash::make(env('ADMIN_PASSWORD', 'test')),            
+            'password' => Hash::make(env('ADMIN_PASSWORD', 'test')),
+            'is_activity' => '1',                        
         ]);
 
         User::create([
@@ -37,7 +39,8 @@ class UserSeeder extends Seeder
             'role_id' => getConfig('role.staff'), 
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now(),
-            'password' => Hash::make(env('ADMIN_PASSWORD', 'test')),            
+            'password' => Hash::make(env('ADMIN_PASSWORD', 'test')),
+            'is_activity' => '1',            
         ]);
     }
 }
