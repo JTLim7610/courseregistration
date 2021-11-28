@@ -1,0 +1,44 @@
+.filter-btn-section{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    position: relative;
+    padding:0 200px;
+}
+.filter-btn-section button{
+    margin-bottom:10px;
+}
+.filter-btn.active{
+    background: rgba(0,0,0,0.05) !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    font-weight: 400;
+}
+.filter-content{
+    max-width: 100% !important;
+    overflow:visible !important;
+}
+.product-item{
+    transition: 0.4s all;
+}
+.product-item.hover{
+    opacity: 0.5;
+}
+.product-item.active{
+    z-index: 1000;
+    opacity: 1 !important;
+
+}
+.sort-section{
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:150px;
+    margin-top:-3px;
+}
+.sort-select{
+    font-size: 13px;
+    height: auto !important;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+}

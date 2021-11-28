@@ -1,0 +1,88 @@
+.header-text {
+    color: white; 
+    padding : 0px 10px 0px 10px;
+}
+
+a {
+    color: initial;
+    text-decoration: none !important;
+    outline:none !important;
+}
+
+.chart-section{
+    margin-top: 60px;
+    margin-left: -25px;
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+
+}
+.ct-series-a .ct-area {
+    fill: #1629ff;
+}
+
+.chart-section h1{
+    padding: 0px 27px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.9);
+}
+
+.ct-series-b .ct-slice-donut{
+    stroke: #f3f3f3 !important;
+    stroke-linecap: round;
+}
+
+.ct-series-a .ct-slice-donut{
+    stroke: #bcabfd !important;
+    stroke-linecap: round;
+}
+
+
+.donut-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#main-menu ul{
+    margin-bottom:0 !important;
+}
+.donut-content .icon{
+    width: 50px;
+    height: 50px;
+    background: #ffc2ab;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    line-height: 50px;
+    color: #fff2f2;
+}
+
+.donut-content h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+.donut-content small{
+    font-size: 12px;
+    opacity: 0.9;
+}
+.donut-section{
+    margin-left:0 !important;
+}
+
+
+#right-panel.expand .donut-content{
+    left: calc(50% + 22px);
+}
+span{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+
+body{
+    background: rgba(0,0,0,0.025) !important;
+    overflow-x:hidden !important;
+}

@@ -1,0 +1,43 @@
+.course_details_container {
+    background-image: url('../../../img/picture/manualStaffBg.jpg');
+    height:auto;
+    padding-top:60px;
+    padding-bottom:60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.course_details_wrapper{
+    background-color: white;
+     margin-left:100px; 
+     margin-right:100px;
+     padding:30px;
+     border-radius:10px;
+}
+
+.title {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:#00026b;
+}
+
+.info {
+    font-size : 14px;
+    margin-top:10px;
+    font-weight: 600;
+}
+
+.description {
+    font-size : 14px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.feedback_link {
+    color: royalblue;
+    font-size : 14px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 40px;
+}

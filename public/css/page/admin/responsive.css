@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1025px) {
+
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 720px) {
+    .guideline-panel{
+        display:none;
+    }
+}
+@media screen and (max-width: 660px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 320px) {
+
+}

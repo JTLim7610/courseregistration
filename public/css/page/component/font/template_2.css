@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Carbin';
+       src: url('/font/carbin/regular.ttf');
+    font-weight: 500;
+    font-style: normal;
+ }
+@font-face {
+    font-family: 'Carbin';
+       src: url('/font/carbin/bold.ttf');
+    font-weight: 700;
+    font-style: bold;
+ }
+@font-face {
+    font-family: 'Carbin';
+       src: url('/font/carbin/black.ttf');
+    font-weight: 900;
+    font-style: black;
+ }
+@font-face {
+    font-family: 'Carbin';
+       src: url('/font/carbin/medium.ttf');
+    font-weight: 600;
+    font-style: medium;
+ }
+
+ .font-section{
+    font-family: 'Carbin', sans-serif !important;
+ }
+
+ .black{
+     font-weight: 900;
+ }
+
+ .bold{
+     font-weight: 700;
+ }
+
+ .medium{
+     font-weight: 600;
+ }
+

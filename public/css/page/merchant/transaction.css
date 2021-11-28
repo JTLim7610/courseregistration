@@ -1,0 +1,53 @@
+.shipping-service-item img{
+    width:100%;
+}
+.shipping-service-item h1{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top:10px;
+}
+.shipping-service-item .service-duration{
+    opacity: 0.8;
+}
+.shipping-service-item .service-rate{
+    color: #1d0d57;
+    font-size: 18px;
+    font-weight: 700;
+}
+.shipping-service-item{
+    padding: 5%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.shipping-service-item:hover{
+    transform:scale(1.03);    
+}
+.modal{
+    overflow:auto !important;
+}
+.shipping-service-item.active{
+    background: rgba(0,0,0,0.03);
+    border: 2px solid lightgray;
+}
+
+.flex-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hidden-section{
+    display:none;
+}
+
+
+tbody select{
+    width:auto !important;
+}
+
+.tooltip_menus a{
+    width:100%;
+}

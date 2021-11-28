@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Fredoka';
+       src: url('/font/roboto/regular.ttf');
+    font-weight: 500;
+    font-style: normal;
+ }
+
+ .font-section{
+    font-family: 'Fredoka', sans-serif !important;
+ }

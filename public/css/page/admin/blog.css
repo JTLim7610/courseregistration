@@ -1,0 +1,36 @@
+.badge-status-2{
+    background: #32c380;
+    color: #ffffff;
+    font-weight: 500;
+}
+.badge-status-1{
+    background: #d3d3d3;
+    color: #767676;
+    font-weight: 500;
+}
+.search-bar {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1) !important;    
+}
+
+.tag-section{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.tag-section div{
+    background: rgba(0,0,0,0.08);
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.tag-section span{
+    font-size: 11px;
+}
+
+.delete-tag{
+    font-size: 10px;
+    padding: 5px;
+    padding-bottom: 2px;
+}

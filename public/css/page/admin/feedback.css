@@ -1,0 +1,22 @@
+.badge-status-1{
+    background: #32c380;
+    color: #ffffff;
+    font-weight: 500;
+}
+.badge-status-0{
+    background: #d3d3d3;
+    color: #767676;
+    font-weight: 500;
+}
+.badge-status-2{
+    background: #e73333;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.remark-col{
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

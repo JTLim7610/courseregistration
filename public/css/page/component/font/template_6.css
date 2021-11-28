@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Poiret';
+       src: url('/font/poiret/regular.ttf');
+    font-weight: 500;
+    font-style: normal;
+ }
+
+ .font-section{
+    font-family: 'Poiret', sans-serif !important;
+ }

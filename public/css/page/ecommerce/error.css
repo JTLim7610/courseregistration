@@ -1,0 +1,37 @@
+nav , .navbar, footer{
+    display:none;
+}
+
+.container{
+    text-align: center;
+
+    width:60%;
+    margin:auto;
+    margin-top: 15vh;
+    padding-bottom:300px;
+}
+
+.container img{
+    width: 150px;
+    margin-bottom: 25px;
+}
+.container h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+.container p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: auto;
+    padding-bottom: 50px;
+}
+.container small{
+    opacity: 0.6;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+body,html{
+    cursor: pointer;
+}

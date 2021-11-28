@@ -1,0 +1,38 @@
+.breadcrumb{
+    justify-content: flex-end;
+}
+
+.search-bar{
+    max-width: 300px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.help-box{
+    margin-top: 50px;
+}
+.help-item{
+    border-radius: 15px;
+    padding: 15px 25px;
+    background: white;
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 4%);
+    transition: 0.4s all cubic-bezier(0.175, 0.885, 0.92, 1.275);
+}
+.help-item:hover{
+    transform:scale(1.04);
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 8%);
+}
+.help-item h1{
+    font-size: var(--header-font-size);
+    font-weight: 600;
+}
+.help-item p{
+    font-size: var(--paragraph-font-size);
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+#content > a{
+    position: absolute;
+    margin-top: 15px;;
+}

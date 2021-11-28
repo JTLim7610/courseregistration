@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Ubuntu';
+       src: url('/font/ubuntu/regular.ttf');
+    font-weight: 500;
+    font-style: normal;
+ }
+@font-face {
+    font-family: 'Ubuntu';
+       src: url('/font/ubuntu/bold.ttf');
+    font-weight: 700;
+    font-style: bold;
+ }
+
+@font-face {
+    font-family: 'Ubuntu';
+       src: url('/font/ubuntu/medium.ttf');
+    font-weight: 600;
+    font-style: medium;
+ }
+@font-face {
+    font-family: 'Ubuntu';
+       src: url('/font/ubuntu/light.ttf');
+    font-weight: 300;
+    font-style: light;
+ }
+
+
+ .font-section{
+    font-family: 'Ubuntu', sans-serif !important;
+ }
+
+ .bold{
+     font-weight: 700;
+ }
+
+ .medium{
+     font-weight: 600;
+ }
+
+ .light{
+     font-weight: 300;
+ }
+ 

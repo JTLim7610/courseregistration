@@ -1,0 +1,13 @@
+body{
+    background:rgba(0,0,0,0.02);
+    padding: 5%;
+}
+.code-section{
+    border:2px solid lightgray;
+    background-color : rgba(0,0,0,0.9);
+}
+
+.code-section pre{
+    color: rgba(255,255,255,0.8);
+    padding:5% 0;
+}

@@ -1,0 +1,52 @@
+
+.qr-code{
+    text-align: center;
+}
+
+
+.form-section ul{
+    list-style: none;
+    margin-top:25px;
+    padding: 0;
+}
+
+.form-section li{
+    background: rgba(0,0,0,0.04);
+    padding: 10px 15px;
+  
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.form-section{
+    height: calc(100% - 30px);
+}
+
+
+.login-log{
+    padding-bottom: 60px !important;
+}
+
+.login-log .device{
+    margin:0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.login-log .time{
+    margin:0;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.login-log ul {
+    list-style: none;
+    padding: 0;
+}
+.login-log li{
+    padding: 8px 15px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.login-log button{
+    float:right;
+}

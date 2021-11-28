@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'RobotoMono';
+       src: url('/font/roboto_mono/regular.ttf');
+    font-weight: 500;
+    font-style: normal;
+ }
+@font-face {
+    font-family: 'RobotoMono';
+       src: url('/font/roboto_mono/bold.ttf');
+    font-weight: 700;
+    font-style: bold;
+ }
+@font-face {
+    font-family: 'RobotoMono';
+       src: url('/font/roboto_mono/medium.ttf');
+    font-weight: 600;
+    font-style: medium;
+ }
+@font-face {
+    font-family: 'RobotoMono';
+       src: url('/font/roboto_mono/light.ttf');
+    font-weight: 300;
+    font-style: light;
+ }
+@font-face {
+    font-family: 'RobotoMono';
+       src: url('/font/roboto_mono/thin.ttf');
+    font-weight: 100;
+    font-style: thin;
+ }
+
+ .font-section{
+    font-family: 'RobotoMono', sans-serif !important;
+ }
+
+
+ .bold{
+     font-weight: 700;
+ }
+
+ .medium{
+     font-weight: 600;
+ }
+
+ .light{
+     font-weight: 300;
+ }
+ 
+ .lighter{
+     font-weight: 100;
+ }
